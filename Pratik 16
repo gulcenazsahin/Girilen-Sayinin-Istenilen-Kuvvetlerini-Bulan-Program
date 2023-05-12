@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Pratik16 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Bir sayı giriniz: ");
+        int k = input.nextInt();
+
+        int dortKuvveti = 1;
+        int besKuvveti = 1;
+
+        System.out.println("4'un Kuvvetleri: ");
+        while (dortKuvveti <= k) {
+            System.out.println(dortKuvveti);
+            dortKuvveti *= 4;
+            }
+            System.out.println("5'in Kuvvetleri: ");
+        while (besKuvveti <= k) {
+            System.out.println(besKuvveti);
+            besKuvveti *= 5;
+            }
+        }
+    }
